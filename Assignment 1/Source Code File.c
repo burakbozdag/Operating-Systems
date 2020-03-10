@@ -103,5 +103,7 @@ int main(int argc, char const *argv[]) {
   }
   printf("<PID: %d, Children_PID(s): %d, %d, %d, level: %d>\n",
   pid, child[0], child[1], child[2], level); //End of L1 (main process)
+
+  getchar();
   return 0;
 }
